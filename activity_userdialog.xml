@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/DialogClose"
+        android:text="X"
+        android:textSize="10dp"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:id="@+id/FriendName"
+        android:text="Name:"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/DialogClose"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:id="@+id/FriendNameValue"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/FriendName"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:id="@+id/EventSelectionHeader"
+        android:text="Select Event"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/FriendNameValue"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:id="@+id/EventSelectionValue"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/EventSelectionHeader"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:id="@+id/EventSelectionOptions"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/EventSelectionValue">
+    </Spinner>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/SendingInvitation"
+        android:text="Invite !!"
+        android:textColor="@color/colorAccent"
+        android:textSize="10dp"
+        android:layout_below="@+id/EventSelectionOptions"
+        android:layout_centerHorizontal="true"
+        />
+    
+
+</RelativeLayout>

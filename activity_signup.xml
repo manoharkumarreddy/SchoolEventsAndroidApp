@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manoh.project515.SignUpActivity">
+
+
+<TextView
+android:text="Never Miss School Events"
+android:layout_width="wrap_content"
+android:layout_height="40dp"
+android:textSize="20dp"
+android:gravity="center"
+android:id="@+id/Title1"
+android:textColor="@android:color/holo_orange_dark"
+android:layout_alignParentTop="true"
+android:layout_centerHorizontal="true" />
+
+<TextView
+android:text="Register"
+android:layout_width="wrap_content"
+android:layout_height="40dp"
+android:textSize="15dp"
+android:gravity="center"
+android:id="@+id/TitleRegister"
+android:textColor="@android:color/holo_red_dark"
+android:layout_below="@+id/Title1"
+android:layout_centerHorizontal="true" />
+
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="40dp"
+android:hint="User Name"
+android:textSize="15dp"
+android:id="@+id/UserName"
+android:textColor="@color/colorAccent"
+android:layout_below="@+id/TitleRegister"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentEnd="true"/>
+
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="40dp"
+android:hint="User Id"
+android:textSize="15dp"
+android:id="@+id/UserId1"
+android:textColor="@color/colorAccent"
+android:layout_below="@+id/UserName"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentEnd="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:textSize="15dp"
+        android:id="@+id/Password1"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/UserId1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+<Button
+android:layout_width="wrap_content"
+android:layout_height="40dp"
+android:text="Sign Up"
+android:textSize="15dp"
+android:gravity="center"
+android:id="@+id/UserSignUp1"
+android:textColor="@android:color/holo_red_dark"
+android:layout_below="@+id/Password1"
+android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

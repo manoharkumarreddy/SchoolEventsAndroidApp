@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.manoh.project515.UserRequestSentActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Welcome to Hangouts"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20dp"
+        android:id="@+id/UserHangoutsHeader"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Hangout Requests Sent"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/RequestsSent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/UserHangoutsHeader"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Hangout Requests Received"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/RequestsReceived"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/RequestsSent"
+        />
+
+
+
+</RelativeLayout>

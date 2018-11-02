@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.manoh.project515.AdminActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Never Miss School Events"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:id="@+id/Title2"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Welcome Administrator"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/TitleAdmin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Title2"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:hint="Event Name"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/EventName"
+        android:textSize="15dp"
+        android:layout_below="@+id/TitleAdmin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:hint="Event Description"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/EventDescription"
+        android:textSize="15dp"
+        android:layout_below="@+id/EventName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:hint="Event Location"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/EventLocation"
+        android:textSize="15dp"
+        android:layout_below="@+id/EventDescription"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:hint="Event Date"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/EventDate"
+        android:textSize="15dp"
+        android:layout_below="@+id/EventLocation"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textColor="@color/colorAccent"
+        android:text="Set Date"
+        android:layout_alignRight="@+id/EventDate"
+        android:layout_below="@+id/EventLocation"
+        android:id="@+id/SetDate"
+        android:textSize="8dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:hint="Event Time"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/EventTime"
+        android:textSize="15dp"
+        android:layout_below="@+id/EventDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textColor="@color/colorAccent"
+        android:text="Set Time"
+        android:layout_alignRight="@+id/EventTime"
+        android:layout_below="@+id/EventDate"
+        android:id="@+id/SetTime"
+        android:textSize="8dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:hint="Latitude of Location"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/LocationLatitude"
+        android:textSize="15dp"
+        android:layout_below="@+id/EventTime"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:hint="Longitude of Location"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/LocationLongitude"
+        android:textSize="15dp"
+        android:layout_below="@+id/LocationLatitude"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Submit"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/SubmitInfo"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_below="@+id/LocationLongitude"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+</RelativeLayout>

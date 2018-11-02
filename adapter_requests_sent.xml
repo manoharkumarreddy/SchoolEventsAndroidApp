@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NameOfReceiver"
+        android:text="Name : "
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NameOfReceiverValue"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/NameOfReceiver"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NameOfEventSent"
+        android:text="Event Name : "
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/NameOfReceiverValue"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NameOfEventSentValue"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/NameOfEventSent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SentRequestStatus"
+        android:text="Request Status : "
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/NameOfEventSentValue"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SentRequestStatusValue"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/SentRequestStatus"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/GettingDirections"
+        android:text="Get Directions"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:visibility="invisible"
+        android:textColor="@android:color/holo_purple"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/SentRequestStatusValue"
+        />
+</RelativeLayout>

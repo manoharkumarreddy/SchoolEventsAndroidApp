@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:id="@+id/EventHeading"
+        android:text="Event Information"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/EventNameHeading"
+        android:text="Name :"
+        android:textSize="10dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/EventHeading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/EventNameValue"
+        android:text=""
+        android:textSize="10dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/EventNameHeading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/EventDescHeading"
+        android:text="Description :"
+        android:textSize="10dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/EventNameValue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/EventDescValue"
+        android:text=""
+        android:textSize="10dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/EventDescHeading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/EventLocHeading"
+        android:text="Location :"
+        android:textSize="10dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/EventDescValue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/EventLocValue"
+        android:text=""
+        android:textSize="10dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/EventLocHeading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/EventDateHeading"
+        android:text="Date :"
+        android:textSize="10dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/EventLocValue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/EventDateValue"
+        android:text=""
+        android:textSize="10dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/EventDateHeading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/EventTimeHeading"
+        android:text="Time :"
+        android:textSize="10dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/EventDateValue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/EventTimeValue"
+        android:text=""
+        android:textSize="10dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/EventTimeHeading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+
+
+
+
+</RelativeLayout>
